@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/color-paint-celebration-white-background-vector-elements-christmas-confetti-backdrop-colored-paper-independence-wallpaper-215267978.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+}
+.container p{
+    font-size: 20px;
+    text-align: center;
+    padding-right:44%;
+}
+.btn{
+	display: inline;
+	width: 250px;
+	background-color :#2F8F9D;
+	border-radius: 20px;
+	height: 50px;
+	justify-content: space-evenly;
+	transition: 0.3s;
+}
+.btn a{
+    text-decoration: none;
+    color:#9ffaea ;
+    font-weight: bold;
+}
+.btn:hover{
+	background-color: white;
+}
